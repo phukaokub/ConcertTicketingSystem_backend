@@ -1,0 +1,29 @@
+# Python cache and compiled files
+*.pyc
+*.pyo
+__pycache__/
+
+# Virtual environment
+venv/
+
+# Docker
+*.log
+docker-compose.override.yml
+
+# IDE/Editor specific
+.vscode/
+.idea/
+*.swp
+
+# Environment variables
+.env
+
+# AWS credentials
+*.pem
+*.key
+
+# Byte-compiled / optimized / DLL files
+*.py[cod]
+
+# Debugger logs
+*.log
